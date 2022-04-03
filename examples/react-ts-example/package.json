@@ -2,6 +2,7 @@
   "name": "react-ts-example",
   "version": "0.1.0",
   "private": true,
+  "author": "Alperen BAYRAMOĞLU",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
