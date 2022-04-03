@@ -1,0 +1,17 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "examples/*"
+  ],
+  "scripts": {
+    "build": "lerna run build --scope react-ts-library",
+    "watch": "lerna run watch --scope react-ts-library",
+    "start": "lerna run start --scope react-ts-example",
+    "package": "lerna exec --scope react-ts-library -- npm pack"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}

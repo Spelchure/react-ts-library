@@ -1,0 +1,32 @@
+{
+  "name": "react-ts-library",
+  "version": "1.0.0",
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/esm/index.js",
+  "types": "./lib/esm/index.d.ts",
+  "files": [
+    "/lib"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "prepack": "yarn build",
+    "build": "rollup -c",
+    "watch": "rollup -cw"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.3",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "rollup": "^2.70.1",
+    "rollup-plugin-typescript2": "^0.31.2",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "konva": "^8.3.5",
+    "react-konva": "^17.0.2-6"
+  }
+}
